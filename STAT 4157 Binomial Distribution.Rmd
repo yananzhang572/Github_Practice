@@ -1,0 +1,41 @@
+---
+title: "Untitled"
+author: "Yanan Zhang"
+date: "2022-10-03"
+output: html_document
+
+
+```{r}
+help(pbinom)
+help(dgeom)
+help(rhyper)
+```
+
+
+```{r}
+#x= # of success
+# size=# of trails
+#prob= probility of success
+dbinom(x, size, prob, log=False)
+```
+
+```{r}
+#pbinom
+#qbinom
+#rbinom= simulation
+```
+
+---
+```{r}
+1-pbinom(3,20,0.05)
+```
+```{r}
+dbinom(1,2,0.5)
+```
+
+```{r}
+y <- rbinom(100,20,0.5)
+y
+mean(y)
+```
+
